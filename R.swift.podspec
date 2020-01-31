@@ -29,7 +29,7 @@ Pod::Spec.new do |spec|
   spec.macos.deployment_target   = '10.11'
   spec.watchos.deployment_target = '2.2'
 
-  spec.dependency "R.swift.Library", "~> 5.1.0"
+  spec.dependency "R.swift.Library", "~> 5.1.0", :git => 'https://github.com/SpectralDragon/R.swift.Library.git'
 
   spec.preserve_paths = "rswift"
 
